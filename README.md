@@ -1,16 +1,67 @@
-# React + Vite
+# FreshSave – Food Waste Tracker
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## About the Project
 
-Currently, two official plugins are available:
+FreshSave is a React web application that helps users manage food ingredients, track their food items, and reduce food waste.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Features
 
-## React Compiler
+- Add new food items.
+- Delete food items.
+- Search ingredients by name.
+- Validate user input.
+- Save data using Local Storage.
+- Responsive user interface.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Technologies Used
 
-## Expanding the ESLint configuration
+- React
+- JavaScript
+- HTML
+- CSS
+- Vite
+- Git and GitHub
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## React Components
+
+The application includes the following components:
+
+- **App** – main application component.
+- **Header** – displays the application header.
+- **FoodForm** – allows users to add food items.
+- **FoodList** – displays the list of food items.
+- **ItemCard** – displays an individual food item.
+
+## React Concepts
+
+- Props are used to pass data between components.
+- useState manages application state.
+- useEffect saves data to Local Storage.
+- The map() method renders the list of food items.
+- Event handlers manage user interactions.
+
+## Installation and Setup
+
+1. Clone the repository:
+
+   `git clone https://github.com/alissdq/My-Semester-Project-.git`
+
+2. Open the project folder:
+
+   `cd My-Semester-Project-`
+
+3. Install dependencies:
+
+   `npm install`
+
+4. Start the development server:
+
+   `npm run dev`
+
+5. Open the local URL shown in the terminal.
+
+## Author
+
+Oralbek Alikhan
+
+Student Semester Project – Lab 4
